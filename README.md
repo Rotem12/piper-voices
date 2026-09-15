@@ -18,6 +18,11 @@ The mirror is intentionally per voice. A client should request one release
 asset after the user selects a voice, verify the recorded SHA-256 value, then
 extract the files into its normal Piper model directory.
 
+The TTS client checks its Steam Workshop item first, then the matching asset in
+this release, then the existing Hugging Face download path and configured
+Hugging Face mirror. The release tag is part of the URL so an already shipped
+client never follows a moving asset.
+
 ## Provenance and licensing
 
 Every mirrored artifact retains its upstream source and license information in
@@ -38,4 +43,3 @@ applicable platform rules.
 specifies CC BY-NC-SA 4.0, which is incompatible with an unrestricted
 commercial mirror. They remain available only through their existing upstream
 routes until their terms are cleared.
-
