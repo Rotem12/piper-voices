@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "repository": "Rotem12/piper-russian-voices",
   "releaseTag": "russian-voices-2026-09-15-r2",
-  "generatedAtUtc": "2026-09-15T06:01:05Z",
+  "generatedAtUtc": "2026-10-08T07:03:43Z",
   "models": [
     {
       "key": "ru_RU-denis-medium",
@@ -263,6 +263,19 @@
       "license": "Apache-2.0",
       "sourceRepository": "rraaww/ru_piper",
       "sourceRevision": "f340fe24a52e696bdacbc457d242ac2b0e3bb9ac"
+    },
+    {
+      "key": "ru_RU-april420-medium",
+      "asset": "ru_RU-april420-medium.zip",
+      "assetSizeBytes": 58399493,
+      "assetSha256": "511e3e701db768843749da2036de9112ce0fdb2206591408d5f4d665f53b15e9",
+      "modelSizeBytes": 63516201,
+      "modelSha256": "ad4d87a0c259a33d4afce03aa961e1f2c2d5c14ac769876729a91dab98184634",
+      "configSizeBytes": 5074,
+      "configSha256": "dd8369fc866268211807d119215033a4189113bc7384df34075e03c8bed1bb01",
+      "license": "Apache-2.0",
+      "sourceRepository": "rraaww/ru_piper",
+      "sourceRevision": "3077e02a3c253db294b1b02dd6680d8296c7a348"
     }
   ]
 }
