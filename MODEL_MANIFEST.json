@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "repository": "Rotem12/piper-russian-voices",
+  "repository": "Rotem12/piper-voices",
   "releaseTag": "russian-voices-2026-09-15-r2",
-  "generatedAtUtc": "2026-10-08T07:03:43Z",
+  "generatedAtUtc": "2026-10-21T14:43:00Z",
   "models": [
     {
       "key": "ru_RU-denis-medium",
@@ -276,6 +276,50 @@
       "license": "Apache-2.0",
       "sourceRepository": "rraaww/ru_piper",
       "sourceRevision": "3077e02a3c253db294b1b02dd6680d8296c7a348"
+    },
+    {
+      "key": "zh_CN-cn_aishell3-medium",
+      "releaseTag": "chinese-voices-2026-10-21-r1",
+      "asset": "zh_CN-cn_aishell3-medium.zip",
+      "assetSizeBytes": 71371034,
+      "assetSha256": "3066f6a05bc5be280bdc0069c3aa75020d578e5854fa39b88392b086eb15553a",
+      "modelSizeBytes": 77639618,
+      "modelSha256": "f46e009dcfcaa0f8c5e6eefe23dabc36296c69123ea22df82d31078ab6e0174f",
+      "configSizeBytes": 6338,
+      "configSha256": "54ec178cb1aa0aea290e41e639240b60b2a5fc55087d9957a718817d9f8bafd6",
+      "modelCardSha256": "413c545c0f3ddd1da47d41dd77933eec09823c51cb7fd47e8ea61315534ab317",
+      "license": "Apache-2.0 declared by upstream model repository; see notice for warm-start lineage",
+      "sourceRepository": "writeAPoemForYou/piper-voices-zh-AISHELL-3",
+      "sourceRevision": "be77d1b11c7bc242a6c897c513e1fd8f23aac0e3",
+      "sourcePaths": [
+        "zh/zh_CN/cn_aishell3/medium/zh_CN-cn_aishell3-medium.onnx",
+        "zh/zh_CN/cn_aishell3/medium/zh_CN-cn_aishell3-medium.onnx.json",
+        "zh/zh_CN/cn_aishell3/medium/MODEL_CARD"
+      ]
+    },
+    {
+      "key": "zh_CN-huayan-x_low",
+      "releaseTag": "chinese-voices-2026-10-21-r1",
+      "asset": "zh_CN-huayan-x_low.zip",
+      "assetSizeBytes": 18720590,
+      "assetSha256": "47e3b7d1d27d446a96621d1e81b485dc4bff6ee197a1579435e2b1ec7e1eeda9",
+      "modelSizeBytes": 20628813,
+      "modelSha256": "d30b143fac66d821a1285aa013295adf5cd129d3cc11d70334e51c7b20662c37",
+      "configSizeBytes": 4164,
+      "configSha256": "5521dcb09adf68a9bee289032f7f5af18d29bff020953429b5d223ec1f881816",
+      "modelCardSha256": "dc6f68f3036a32d0a74eae7ae07682a0cae06a84be17e681b59e3d11ccb1353d",
+      "license": "MIT at upstream repository level; dataset license Unknown in model card",
+      "sourceRepository": "rhasspy/piper-voices",
+      "sourceRevision": "d5de91c972ba5a13cea0e77a63fda1623faac2c1",
+      "sourcePaths": [
+        "zh/zh_CN/huayan/x_low/zh_CN-huayan-x_low.onnx",
+        "zh/zh_CN/huayan/x_low/zh_CN-huayan-x_low.onnx.json",
+        "zh/zh_CN/huayan/x_low/MODEL_CARD"
+      ]
     }
-  ]
+  ],
+  "releaseTags": {
+    "ru": "russian-voices-2026-09-15-r2",
+    "zh": "chinese-voices-2026-10-21-r1"
+  }
 }

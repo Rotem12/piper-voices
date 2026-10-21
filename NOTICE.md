@@ -1,8 +1,8 @@
-# Russian Piper mirror notice
+# Piper voice mirror notice
 
-Mirror release: `russian-voices-2026-09-15-r2`  
-Scope: Russian Piper voice artifacts only  
-Initial retrieval date: 2026-09-15 (UTC); April420 added 2026-10-08 (UTC)
+Mirror releases: `russian-voices-2026-09-15-r2` and `chinese-voices-2026-10-21-r1`
+Scope: selected Piper voice artifacts across locales
+Initial Russian retrieval: 2026-09-15 (UTC); April420 added 2026-10-08 (UTC); Chinese models added 2026-10-21 (UTC)
 
 This file documents provenance and license declarations supplied by the
 upstream repositories. The mirror preserves those terms; it does not grant
@@ -47,3 +47,14 @@ The mirror preserves the declarations above and does not add rights. The
 `ru_RU-ruslan-medium` remains subject to the CC BY-NC-SA 4.0 terms.
 
 For April420, the pinned upstream repository declares Apache-2.0 in model metadata but does not publish a standalone LICENSE file. The mirror records that declaration and does not make a separate voice-identity or recording-rights determination.
+
+## Chinese voices (2026-10-21)
+
+| Model | Upstream source and pinned revision | Upstream license and provenance | Mirror status |
+| --- | --- | --- | --- |
+| `zh_CN-cn_aishell3-medium` | [writeAPoemForYou/piper-voices-zh-AISHELL-3](https://huggingface.co/writeAPoemForYou/piper-voices-zh-AISHELL-3/tree/be77d1b11c7bc242a6c897c513e1fd8f23aac0e3) at `be77d1b11c7bc242a6c897c513e1fd8f23aac0e3` | Model repository declares Apache-2.0; card identifies AISHELL-3 as Apache-2.0 and records a warm-start from `en_US/libritts_r` before fine-tuning. The LibriTTS-R card says CC BY 4.0 and records fine-tuning from English Lessac medium. | Included; full lineage is preserved in the release notice. |
+| `zh_CN-huayan-x_low` | [rhasspy/piper-voices](https://huggingface.co/rhasspy/piper-voices/tree/d5de91c972ba5a13cea0e77a63fda1623faac2c1/zh/zh_CN/huayan/x_low) at `d5de91c972ba5a13cea0e77a63fda1623faac2c1` | Upstream repository is marked MIT; this voice card says the dataset license is Unknown and the model was trained from scratch. | Included; upstream card and uncertainty preserved. |
+
+The other official Chinese Piper cards reviewed for this release have explicit restrictions or a known restrictive ancestry: `zh_CN-xiao_ya-medium` states non-commercial dataset terms; `zh_CN-chaowen-medium` is fine-tuned from Xiao Ya; and `zh_CN-huayan-medium` is fine-tuned from English Lessac. They are not included in this release.
+
+The license file in each model archive preserves the upstream project/model license text available for that repository. These notices record upstream statements and do not add or interpret rights.

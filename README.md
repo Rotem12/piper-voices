@@ -1,17 +1,12 @@
-# Russian Piper voice mirror
+# Piper voice mirror
 
-Versioned Russian voice artifacts for the [Piper](https://github.com/rhasspy/piper)
-text-to-speech runtime. Each voice is a separate [GitHub Release asset](https://github.com/Rotem12/piper-russian-voices/releases/tag/russian-voices-2026-09-15-r2),
-so each download contains only the voice you need.
+Versioned Piper voice artifacts across locales. Each voice is a separate GitHub Release asset, so users can download only the model they need.
 
-## Download
+## Releases
 
-Choose a voice from the release and download its ZIP. Each archive contains the
-Piper ONNX model, JSON sidecar, and the available upstream model and license
-notices. Verify the SHA-256 value in [`MODEL_MANIFEST.json`](MODEL_MANIFEST.json)
-before extracting it into the Piper model directory.
+- [Russian voices](https://github.com/Rotem12/piper-voices/releases/tag/russian-voices-2026-09-15-r2)
+- [Chinese voices](https://github.com/Rotem12/piper-voices/releases/tag/chinese-voices-2026-10-21-r1)
 
-## Provenance
+Each ZIP contains one Piper ONNX model, its JSON sidecar, the upstream model card when available, and license/provenance notices. Check [`MODEL_MANIFEST.json`](MODEL_MANIFEST.json) and [`NOTICE.md`](NOTICE.md) for pinned source revisions, hashes, and license declarations before use.
 
-Source revisions and licensing information are recorded in [`NOTICE.md`](NOTICE.md).
-The repository does not include the Piper runtime.
+The mirror preserves upstream declarations and does not grant additional rights. The Piper runtime is not included.
