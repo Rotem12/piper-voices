@@ -5,7 +5,8 @@ Versioned Piper voice artifacts across locales. Each voice is a separate GitHub 
 ## Releases
 
 - [Russian voices](https://github.com/Rotem12/piper-voices/releases/tag/russian-voices-2026-09-15-r2)
-- [Chinese voices](https://github.com/Rotem12/piper-voices/releases/tag/chinese-voices-2026-10-21-r1)
+- [Chinese voices, initial release](https://github.com/Rotem12/piper-voices/releases/tag/chinese-voices-2026-10-21-r1)
+- [Chinese voices, Xiao Ya and Chaowen](https://github.com/Rotem12/piper-voices/releases/tag/chinese-voices-2026-10-21-r2)
 
 Each ZIP contains one Piper ONNX model, its JSON sidecar, the upstream model card when available, and license/provenance notices. Check [`MODEL_MANIFEST.json`](MODEL_MANIFEST.json) and [`NOTICE.md`](NOTICE.md) for pinned source revisions, hashes, and license declarations before use.
 

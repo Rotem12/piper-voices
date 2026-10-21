@@ -1,6 +1,6 @@
 # Piper voice mirror notice
 
-Mirror releases: `russian-voices-2026-09-15-r2` and `chinese-voices-2026-10-21-r1`
+Mirror releases: `russian-voices-2026-09-15-r2`, `chinese-voices-2026-10-21-r1`, and `chinese-voices-2026-10-21-r2`
 Scope: selected Piper voice artifacts across locales
 Initial Russian retrieval: 2026-09-15 (UTC); April420 added 2026-10-08 (UTC); Chinese models added 2026-10-21 (UTC)
 
@@ -54,7 +54,9 @@ For April420, the pinned upstream repository declares Apache-2.0 in model metada
 | --- | --- | --- | --- |
 | `zh_CN-cn_aishell3-medium` | [writeAPoemForYou/piper-voices-zh-AISHELL-3](https://huggingface.co/writeAPoemForYou/piper-voices-zh-AISHELL-3/tree/be77d1b11c7bc242a6c897c513e1fd8f23aac0e3) at `be77d1b11c7bc242a6c897c513e1fd8f23aac0e3` | Model repository declares Apache-2.0; card identifies AISHELL-3 as Apache-2.0 and records a warm-start from `en_US/libritts_r` before fine-tuning. The LibriTTS-R card says CC BY 4.0 and records fine-tuning from English Lessac medium. | Included; full lineage is preserved in the release notice. |
 | `zh_CN-huayan-x_low` | [rhasspy/piper-voices](https://huggingface.co/rhasspy/piper-voices/tree/d5de91c972ba5a13cea0e77a63fda1623faac2c1/zh/zh_CN/huayan/x_low) at `d5de91c972ba5a13cea0e77a63fda1623faac2c1` | Upstream repository is marked MIT; this voice card says the dataset license is Unknown and the model was trained from scratch. | Included; upstream card and uncertainty preserved. |
+| `zh_CN-xiao_ya-medium` | [rhasspy/piper-voices](https://huggingface.co/rhasspy/piper-voices/tree/5041a7a49ae5b3a0f30e6837769eb03fdbb231bd/zh/zh_CN/xiao_ya/medium) at `5041a7a49ae5b3a0f30e6837769eb03fdbb231bd` | Upstream repository metadata declares MIT. The per-voice card says it was trained from scratch and records the BZNSYP dataset terms as “Non-commercial use,” linking to Data Baker. | Included in `chinese-voices-2026-10-21-r2`; model card and dataset note preserved. |
+| `zh_CN-chaowen-medium` | [rhasspy/piper-voices](https://huggingface.co/rhasspy/piper-voices/tree/5041a7a49ae5b3a0f30e6837769eb03fdbb231bd/zh/zh_CN/chaowen/medium) at `5041a7a49ae5b3a0f30e6837769eb03fdbb231bd` | Upstream repository metadata declares MIT. Its model card identifies a CC0 dataset and says the voice was fine-tuned from Xiao Ya; Xiao Ya’s card records BZNSYP dataset terms as “Non-commercial use.” | Included in `chinese-voices-2026-10-21-r2`; upstream lineage preserved. |
 
-The other official Chinese Piper cards reviewed for this release have explicit restrictions or a known restrictive ancestry: `zh_CN-xiao_ya-medium` states non-commercial dataset terms; `zh_CN-chaowen-medium` is fine-tuned from Xiao Ya; and `zh_CN-huayan-medium` is fine-tuned from English Lessac. They are not included in this release.
+`zh_CN-xiao_ya-medium` and `zh_CN-chaowen-medium` were added after the initial Chinese release. Their upstream repository metadata declares MIT, and the archives preserve the separate training-data statements from the per-voice cards. This mirror does not grant additional rights or resolve how those dataset terms apply to downstream model use. `zh_CN-huayan-medium` remains unmirrored pending a separate review of its model and training lineage.
 
 The license file in each model archive preserves the upstream project/model license text available for that repository. These notices record upstream statements and do not add or interpret rights.
