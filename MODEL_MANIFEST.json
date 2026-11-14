@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "repository": "Rotem12/piper-voices",
   "releaseTag": "russian-voices-2026-09-15-r2",
-  "generatedAtUtc": "2026-10-21T14:43:00Z",
+  "generatedAtUtc": "2026-11-14T20:00:00Z",
   "models": [
     {
       "key": "ru_RU-denis-medium",
@@ -356,10 +356,25 @@
         "zh/zh_CN/chaowen/medium/zh_CN-chaowen-medium.onnx.json",
         "zh/zh_CN/chaowen/medium/MODEL_CARD"
       ]
+    },
+    {
+      "key": "pt_BR-cadu-medium",
+      "asset": "pt_BR-cadu-medium.zip",
+      "assetSizeBytes": 58284633,
+      "assetSha256": "048113f33fa509a78b1ac97897ae43fbe284b48d49a6210dafaffacefe841cf9",
+      "modelSizeBytes": 63221984,
+      "modelSha256": "d5a662e3f606d5a49dd29ba9ce90c304ae45dd9543f8b0c773bcb0de282499de",
+      "configSizeBytes": 5465,
+      "configSha256": "9fa837b7c1237ea5978bcd7be38c130798e8faa064f754873bb4ce5fc498bd88",
+      "license": "MIT (repository); CC0 dataset and base voice (model card)",
+      "sourceRepository": "rhasspy/piper-voices",
+      "sourceRevision": "ae9d8352b73c1b1750748843e753a504b00e05b0",
+      "releaseTag": "portuguese-voices-2026-11-14-r1"
     }
   ],
   "releaseTags": {
     "ru": "russian-voices-2026-09-15-r2",
-    "zh": "chinese-voices-2026-10-21-r2"
+    "zh": "chinese-voices-2026-10-21-r2",
+    "pt": "portuguese-voices-2026-11-14-r1"
   }
 }

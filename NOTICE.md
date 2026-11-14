@@ -60,3 +60,18 @@ For April420, the pinned upstream repository declares Apache-2.0 in model metada
 `zh_CN-xiao_ya-medium` and `zh_CN-chaowen-medium` were added after the initial Chinese release. Their upstream repository metadata declares MIT, and the archives preserve the separate training-data statements from the per-voice cards. This mirror does not grant additional rights or resolve how those dataset terms apply to downstream model use. `zh_CN-huayan-medium` remains unmirrored pending a separate review of its model and training lineage.
 
 The license file in each model archive preserves the upstream project/model license text available for that repository. These notices record upstream statements and do not add or interpret rights.
+
+
+# Portuguese Piper Cadu voice mirror
+
+Source: rhasspy/piper-voices at ae9d8352b73c1b1750748843e753a504b00e05b0.
+Files: pt/pt_BR/cadu/medium/pt_BR-cadu-medium.onnx and .onnx.json.
+Model card: pt/pt_BR/cadu/medium/MODEL_CARD, preserved unchanged.
+
+The upstream repository README declares MIT. The voice model card identifies
+the training dataset as CC0 and the rdh base voice as CC0. LICENSE.txt preserves
+the upstream Piper MIT notice (Michael Hansen, 2022). The model card states
+that Piper 1.5 or higher is required. This mirror grants no additional rights.
+
+Model SHA-256: d5a662e3f606d5a49dd29ba9ce90c304ae45dd9543f8b0c773bcb0de282499de
+Config SHA-256: 9fa837b7c1237ea5978bcd7be38c130798e8faa064f754873bb4ce5fc498bd88
